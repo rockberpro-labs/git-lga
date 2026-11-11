@@ -176,8 +176,8 @@ Every alias in `git-lga.gitconfig`. Use them as `git <alias>`, or as the shell a
 | `cfg` | `git config` |
 | `cfgl` | `git config --list` |
 | `cln` | `git clean` |
-| `clf` | `git clean --force` |
-| `clfd` | `git clean --force -d` |
+| `clnf` | `git clean --force` |
+| `clnfd` | `git clean --force -d` |
 | `clo` | `git clone` |
 | `chp` | `git cherry-pick` |
 | `chpa` | `git cherry-pick --abort` |

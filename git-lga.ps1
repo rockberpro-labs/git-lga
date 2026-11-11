@@ -128,8 +128,8 @@ function gbl   { git bl @args }
 function gcfg  { git cfg @args }
 function gcfgl { git cfgl @args }
 function gcln  { git cln @args }
-function gclf  { git clf @args }
-function gclfd { git clfd @args }
+function gclnf  { git clnf @args }
+function gclnfd { git clnfd @args }
 function gclo  { git clo @args }
 function gchp  { git chp @args }
 function gchpa { git chpa @args }
@@ -183,7 +183,7 @@ $GitLgaFns = @(
     'gst','gsts',
     'gwt','gwta','gwtaf','gwtl','gwtm','gwtmf','gwtp','gwtr','gwtrf',
     'gbs','gbsb','gbsg','gbsr','gbss','grl','gsm','gsmu',
-    'gbl','gcfg','gcfgl','gcln','gclf','gclfd','gclo','gchp','gchpa','gchpc','gchps',
+    'gbl','gcfg','gcfgl','gcln','gclnf','gclnfd','gclo','gchp','gchpa','gchpc','gchps',
     'gds','ggp','gin','grt','grtv','grv','grva','grvc','gtg','gtgd','gtgf','gtgl','grst','grsth','grsts'
 )
 

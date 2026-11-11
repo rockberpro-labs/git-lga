@@ -138,8 +138,8 @@
     cfg  = config
     cfgl = config --list
     cln  = clean
-    clf  = clean --force
-    clfd = clean --force -d
+    clnf = clean --force
+    clnfd = clean --force -d
     clo  = clone
     chp  = cherry-pick
     chpa = cherry-pick --abort
