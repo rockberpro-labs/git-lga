@@ -10,6 +10,7 @@
 
 ### Changed
 
+- **Breaking:** renamed `clf` to `clnf` (clean --force) and `clfd` to `clnfd` (clean --force -d) so they share the `cln` prefix. The old names are gone; shell aliases `gclf`/`gclfd` are now `gclnf`/`gclnfd`
 - Files now install to `~/.config/git-lga/` (or `$XDG_CONFIG_HOME/git-lga/`) instead of directly in `~/`. Re-running the setup script migrates an older install: it removes `~/.git-lga.gitconfig`, `~/.git-lga-help.sh`, `~/.git-lga.bashrc`/`~/.git-lga.ps1`, the old `include.path` entry and the old source line in `~/.bashrc`/`$PROFILE`
 
 ## [0.2.0] - 2026-10-01

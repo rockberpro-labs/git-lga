@@ -129,8 +129,8 @@ alias gbl='git bl'
 alias gcfg='git cfg'
 alias gcfgl='git cfgl'
 alias gcln='git cln'
-alias gclf='git clf'
-alias gclfd='git clfd'
+alias gclnf='git clnf'
+alias gclnfd='git clnfd'
 alias gclo='git clo'
 alias gchp='git chp'
 alias gchpa='git chpa'
@@ -309,8 +309,8 @@ if declare -f __git_complete > /dev/null 2>&1; then
     _lga_complete gcfg _git_config
     _lga_complete gcfgl _git_config
     _lga_complete gcln _git_clean
-    _lga_complete gclf _git_clean
-    _lga_complete gclfd _git_clean
+    _lga_complete gclnf _git_clean
+    _lga_complete gclnfd _git_clean
     _lga_complete gclo _git_clone
     _lga_complete gchp _git_cherry_pick
     _lga_complete gchpa _git_cherry_pick
