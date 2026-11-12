@@ -19,13 +19,13 @@ Read the source before you run it: [setup.sh](setup.sh), [setup.ps1](setup.ps1).
 ```bash
 mkdir -p ~/.config/git-lga
 
-curl -sL https://raw.githubusercontent.com/rockberpro-dev/git-lga/main/git-lga.gitconfig \
+curl -sL https://raw.githubusercontent.com/rockberpro-labs/git-lga/main/git-lga.gitconfig \
   -o ~/.config/git-lga/git-lga.gitconfig
 
-curl -sL https://raw.githubusercontent.com/rockberpro-dev/git-lga/main/git-lga-help.sh \
+curl -sL https://raw.githubusercontent.com/rockberpro-labs/git-lga/main/git-lga-help.sh \
   -o ~/.config/git-lga/git-lga-help.sh && chmod +x ~/.config/git-lga/git-lga-help.sh
 
-curl -sL https://raw.githubusercontent.com/rockberpro-dev/git-lga/main/git-lga.bashrc \
+curl -sL https://raw.githubusercontent.com/rockberpro-labs/git-lga/main/git-lga.bashrc \
   -o ~/.config/git-lga/git-lga.bashrc
 
 git config --global --add include.path ~/.config/git-lga/git-lga.gitconfig

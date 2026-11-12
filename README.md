@@ -15,13 +15,13 @@
 **Linux / macOS:**
 
 ```bash
-curl -sL https://raw.githubusercontent.com/rockberpro-dev/git-lga/main/setup.sh | bash
+curl -sL https://raw.githubusercontent.com/rockberpro-labs/git-lga/main/setup.sh | bash
 ```
 
 **Windows (PowerShell):**
 
 ```powershell
-irm https://raw.githubusercontent.com/rockberpro-dev/git-lga/main/setup.ps1 | iex
+irm https://raw.githubusercontent.com/rockberpro-labs/git-lga/main/setup.ps1 | iex
 ```
 
 The script copies the files to `~/.config/git-lga/` and adds an `[include]` entry to `~/.gitconfig`. Your own config stays untouched.

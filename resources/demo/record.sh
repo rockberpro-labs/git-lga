@@ -13,7 +13,7 @@ REMOTE="$PARENT_DIR/git-lga-demo-remote.git"
 WORK="$(mktemp -d)"
 CAST="$WORK/demo.cast"
 OUT="$REPO_DIR/resources/img/demo.svg"
-PUBLIC_URL="git@github.com:rockberpro-dev/git-lga-demo.git"
+PUBLIC_URL="git@github.com:rockberpro-labs/git-lga-demo.git"
 
 trap 'rm -rf "$WORK"' EXIT
 
